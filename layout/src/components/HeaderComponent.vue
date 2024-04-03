@@ -8,6 +8,7 @@
       <nav class="header__right">
         <router-link to="/">Home</router-link> 
         <router-link to="/projects">Projects</router-link>
+        <router-link to="/projectDetails">Details</router-link>
         <router-link to="/blog">Blog</router-link>
         <router-link to="/blogDetails">Articles</router-link>
         <router-link to="/notfound">NotFound</router-link>

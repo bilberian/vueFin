@@ -4,6 +4,7 @@ import HomePage from '../pages/HomePage.vue';
 import BlogPage from '../pages/BlogPage.vue';
 import BlogDetailsPage from '../pages/BlogDetailsPage.vue';
 import ProjectPage from '../pages/ProjectPage.vue';
+import ProjectDetailsPage from '../pages/ProjectDetailsPage.vue';
 import ErrorNotFound from '@/pages/ErrorNotFound.vue';
 Vue.use(VueRouter);
 
@@ -23,6 +24,12 @@ const routes = [
     path: '/projects',
     name: 'projects',
     component: ProjectPage,
+  },
+
+  {
+    path: '/projectDetails',
+    name: 'projectDetails',
+    component: ProjectDetailsPage,
   },
   {
     path: '/:pathMatch(.*)*',
